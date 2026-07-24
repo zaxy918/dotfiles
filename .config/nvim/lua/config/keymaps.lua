@@ -12,7 +12,4 @@ wk.add({
   { "<leader>t", group = "Terminal" },
   { "<leader>tr", "<Cmd>vnew | te<CR>", desc = "Terminal Right" },
   { "<leader>td", "<Cmd>split | te<CR>", desc = "Terminal Down" },
-
-  { ']"', '/"<CR>', desc = "Next quote" },
-  { '["', '?"<CR>', desc = "Previous quote" },
 })
