@@ -7,7 +7,7 @@ map({ "t" }, "<A-m>", "<C-\\><C-n>", { silent = true })
 
 local wk = require("which-key")
 wk.add({
-  { "<leader>fs", "<leader>fs", desc = "File Save" },
+  { "<leader>fs", "<Cmd>w<CR>", desc = "File Save" },
 
   { "<leader>t", group = "Terminal" },
   { "<leader>tr", "<Cmd>vnew | te<CR>", desc = "Terminal Right" },
